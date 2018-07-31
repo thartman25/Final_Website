@@ -1,0 +1,86 @@
+html, body {
+  margin: 0 auto;
+  height: 100%;
+  background-color: #000;
+  font-family: 'Tahoma', sans-serif;
+  font-weight: 100;
+}
+
+/* guestbook */
+
+#main {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #eee;
+  border: 1px solid #333;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  background: #773141;
+}
+
+#title {
+  color: #FFB612;
+  font-size: 35px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 400px;
+  padding: 10px;
+}
+
+.commentItem {
+  display: flex;
+  padding: 1px 0;
+  flex-direction: column;
+  line-height: 2px;
+  justify-content: space-between;
+}
+
+#input {
+  display: flex;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=textbox], select {
+  width: 100%;
+  padding: 55px 20px;
+  margin: 8px 0;
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #773141;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+input[type=submit]:hover {
+  background-color: #FFB612;
+}

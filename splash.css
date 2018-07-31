@@ -1,0 +1,50 @@
+html, body {
+  margin: 0 auto;
+  height: 100%;
+  background-color: #000;
+  font-family: 'Tahoma', sans-serif;
+  font-weight: 100;
+}
+
+#header {
+  background: url(main_bg2.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+button {
+  padding: 15px 24px;
+  background: transparent;
+  color: #fff;
+  border: 2px solid white;
+  font-size: 25px;
+  border-radius: 0px;
+  transition: all .1s ease;
+}
+
+button:hover {
+  background: white;
+  color: black;
+}
+
+a {
+  color: #FFF;
+}
+
+a:visited {
+  color: #FFF;
+}
+
+a:hover {
+  color: #000;
+}
+
+a:active {
+  color: #FFF;
+}
