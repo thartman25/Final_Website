@@ -34,12 +34,13 @@ table {border-collapse: collapse;border-spacing: 0;}
 *******GENERAL STYLES*******
 ***************************/
 body  {
-	background: #060606 url(indexbanner.png) top center no-repeat;
+	background: url(indexbanner.png) top center no-repeat;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:13px;
 	line-height:21px;
 	color:#808080;
 }
+
 a {
 	color:#e4a504;
 	text-decoration:none;
