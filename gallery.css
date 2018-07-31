@@ -1,0 +1,5 @@
+.wrapper {
+    width: 725px;
+    overflow-x: scroll;
+    white-space: nowrap;
+}

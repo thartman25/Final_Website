@@ -303,25 +303,23 @@ span {
 #gallery
 
 .gallery {
-  background: #FFB612;
+  background: #773141;;
   width: 500px;
-  margin: 4em auto;
+  margin: 1em auto;
 }
 
 .gallery img {
   max-width: 100%;
   height: auto;
-  justify-content: center;
 }
 
 .gallery .hero {
-  padding: 3em;
-  text-align: center;
-  background: transparent;
+  padding: 1.5em;
 }
 
 .gallery .thumbs {
-  background: transparent;
+  background: #773141;
+  overflow-x: scroll;
   padding: 1em;
   text-align: center;
 }

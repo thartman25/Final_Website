@@ -6,7 +6,8 @@ var images = [
   'st5.jpg',
   'st6.jpg',
   'st7.jpg',
-  'st8.jpg'
+  'st8.jpg',
+  'st9.jpg'
 ];
 
 // galleryBox is the div with a class of gallery
